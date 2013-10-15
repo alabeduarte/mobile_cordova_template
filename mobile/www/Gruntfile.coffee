@@ -14,6 +14,14 @@ module.exports = (grunt) ->
                   "./css/index.css": "../../app/less/index.less"
             
         coffee:
+            compileSpecs: 
+                options: { bare: true },
+                expand: true,
+                flatten: true,
+                cwd: '../../app/coffee/spec',
+                src: ['*.spec.coffee'],
+                dest: './test',
+                ext: '.spec.js'
             compile: 
                 options: { bare: true },
                 expand: true,
