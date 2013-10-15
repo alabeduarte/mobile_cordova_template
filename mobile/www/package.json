@@ -1,5 +1,5 @@
 {
-  "name": "pomodoro",
+  "name": "my_app",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -7,12 +7,9 @@
     "test": "test"
   },
   "dependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-coffee": "~0.7.0",
-    "grunt-contrib-less": "~0.7.0",
-    "coffee-script": "~1.6.3"
   },
   "devDependencies": {
+     "grunt": "~0.4.1",
     "coffee-script": "~1.6.3",
     "grunt-contrib-coffee": "~0.7.0",
     "grunt-contrib-less": "~0.7.0"
@@ -20,6 +17,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Alabê Duarte",
   "license": "BSD-2-Clause"
 }
